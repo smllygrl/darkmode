@@ -1,0 +1,6 @@
+.header {
+  @include themed() {
+    background-color: t($nav-bg);
+    color: t($hdr);
+  }
+}
